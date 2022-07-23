@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cow-Culator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>COW-Culater</header>
+    <content>
+        <div id="calculator-body">
+            <!--
+                ssss #
+                c/*< #
+                789- #
+                456+ #
+                123= #
+                00.= #
+            -->
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" id="output" value="0"/></td>
+                </tr>
+                <tr>
+                    <td><button id="clear" onclick="clearscreen()">C</button></td>
+                    <td><button class="operator">/</button></td>
+                    <td><button class="operator">*</button></td>
+                    <td><button id="back" onclick="back()">Back</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">7</button></td>
+                    <td><button class="number">8</button></td>
+                    <td><button class="number">9</button></td>
+                    <td><button class="operator">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">4</button></td>
+                    <td><button class="number">5</button></td>
+                    <td><button class="number">6</button></td>
+                    <td><button class="operator">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="number">1</button></td>
+                    <td><button class="number">2</button></td>
+                    <td><button class="number">3</button></td>
+                    <td rowspan="2"><button id="equals" onclick="operate()">=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button class="number">0</button></td>
+                    <td><button id="dot" onclick="dot()">.</button></td>
+                </tr>
+            </table>
+        </div>
+    </content>
+    <script src="javascript.js"></script>
+</body>
+</html>

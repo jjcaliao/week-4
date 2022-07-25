@@ -1,13 +1,13 @@
-var firstnum = null;
-var secondnum = null;
-var operation = null;
-var answer = null;
+let firstnum = null;
+let secondnum = null;
+let operation = null;
+let answer = null;
 
 //console.log(firstnum);
 
-var x = document.getElementById("output");
-var numbers = document.querySelectorAll(".number");
-var operators = document.querySelectorAll(".operator");
+const x = document.getElementById("output");
+const numbers = document.querySelectorAll(".number");
+const operators = document.querySelectorAll(".operator");
 
 // function updateDisplay(){
 //     x.value = x.value;
